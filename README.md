@@ -3,7 +3,7 @@
 IMPORTANT: This image is not ready yet! There is still a lot to do. (e.g. own SSL certificates, http to https forwarding, own conf/mods/ssl (folder))
 
 ### Supported tags
--	`latest` (*It always uses the latest Apache2 version contained in raspbian.*)
+-	[`latest` (*Dockerfile*)](https://github.com/Tob1asDocker/rpi-apache2/blob/master/stretch.armhf.Dockerfile) (*It always uses the latest Apache2 version contained in raspbian.*)
 
 ### What is Apache2 (httpd)?
 The Apache HTTP Server, colloquially called Apache, is a Web server application notable for playing a key role in the initial growth of the World Wide Web. Originally based on the NCSA HTTPd server, development of Apache began in early 1995 after work on the NCSA code stalled. Apache quickly overtook NCSA HTTPd as the dominant HTTP server, and has remained the most popular HTTP server in use since April 1996.
