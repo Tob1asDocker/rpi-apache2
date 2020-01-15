@@ -1,5 +1,15 @@
 # Apache2 (httpd) on Raspberry Pi / ARM
 
+### NOT MAINTAINED AND DEPRECATED
+
+This image is not maintained and is deprecated!  
+  
+Please use the following images:
+
+* offical [httpd](https://hub.docker.com/_/httpd)-Images
+
+--- 
+
 IMPORTANT: This image is not ready yet! There is still a lot to do. (e.g. own SSL certificates, http to https forwarding, own conf/mods/ssl (folder))
 
 ### Supported tags
@@ -26,11 +36,6 @@ The Apache HTTP Server, colloquially called Apache, is a Web server application 
 * `ALLOWOVERRIDE`
 * `REMOTEIP` (set 1 to enable, use this only behind a proxy!)
 
-
-### You need PHP (PHP-FPM)?, see here: 
-* [DockerHub](https://hub.docker.com/r/tobi312/rpi-php/)
-* [GitHub](https://github.com/TobiasH87Docker/rpi-php)
-
 ### This Image on
 * [DockerHub](https://hub.docker.com/r/tobi312/rpi-apache2/)
-* [GitHub](https://github.com/TobiasH87Docker/rpi-apache2)
+* [GitHub](https://github.com/Tob1asDocker/rpi-apache2)
