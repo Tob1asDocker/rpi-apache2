@@ -7,10 +7,9 @@ This image is not maintained and is deprecated!
 Please use the following images:
 
 * offical [httpd](https://hub.docker.com/_/httpd)-Images ([arm32v5](https://hub.docker.com/r/arm32v5/httpd/), [arm32v6](https://hub.docker.com/r/arm32v6/httpd/), [arm32v7](https://hub.docker.com/r/arm32v7/httpd/), [arm64v8](https://hub.docker.com/r/arm64v8/httpd/))
+* [webhippie/apache](https://hub.docker.com/r/webhippie/apache)-Images or [webhippie/php-apache](https://hub.docker.com/r/webhippie/php-apache)-Images
 
 --- 
-
-IMPORTANT: This image is not ready yet! There is still a lot to do. (e.g. own SSL certificates, http to https forwarding, own conf/mods/ssl (folder))
 
 ### Supported tags
 -	[`latest` (*Dockerfile*)](https://github.com/Tob1asDocker/rpi-apache2/blob/master/stretch.armhf.Dockerfile) (*It always uses the latest Apache2 version contained in raspbian.*)
@@ -35,6 +34,8 @@ The Apache HTTP Server, colloquially called Apache, is a Web server application 
 * `ENABLE_SSL`
 * `ALLOWOVERRIDE`
 * `REMOTEIP` (set 1 to enable, use this only behind a proxy!)
+
+IMPORTANT: This image is not ready yet! There is still a lot to do. (e.g. own SSL certificates, http to https forwarding, own conf/mods/ssl (folder))
 
 ### This Image on
 * [DockerHub](https://hub.docker.com/r/tobi312/rpi-apache2/)
