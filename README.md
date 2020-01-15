@@ -6,7 +6,7 @@ This image is not maintained and is deprecated!
   
 Please use the following images:
 
-* offical [httpd](https://hub.docker.com/_/httpd)-Images
+* offical [httpd](https://hub.docker.com/_/httpd)-Images ([arm32v5](https://hub.docker.com/r/arm32v5/httpd/), [arm32v6](https://hub.docker.com/r/arm32v6/httpd/), [arm32v7](https://hub.docker.com/r/arm32v7/httpd/), [arm64v8](https://hub.docker.com/r/arm64v8/httpd/))
 
 --- 
 
